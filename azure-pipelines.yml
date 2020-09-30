@@ -5,8 +5,7 @@
 
 name: "Azure Sentinel Validations"
 
-trigger:
-- master
+trigger: none
 
 jobs:
 - template: .azure-pipelines/detectionsValidations.yaml
